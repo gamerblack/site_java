@@ -1,0 +1,45 @@
+
+/*Editar separadamente cada elemento em cada tamanho, coisas em comum entre ele podem ser feitos ora das chaves de tamanho*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(34, 34, 34);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.dest{
+    color: red;
+}
+
+/* only só de enfeite */
+
+@media only screen and (max-width: 500px) {
+    nav {
+      background-color: lightblue;
+    }
+
+}
+
+@media only screen and (min-width: 500px) {
+    nav {
+      background-color: greenyellow;
+    }
+
+}
+
+@media only screen and (min-width: 900px) {
+
+    nav {
+        background-color: lightcoral;
+    }
+    
+
+}
+
