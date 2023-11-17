@@ -7,3 +7,12 @@
         menu.style.display = "none"
     }
  }
+
+
+ function insereDados(){
+    let nome = prompt("Digite seu nome", "seu nome aqui");
+    document.querySelector("#campo_vazio").innerHTML = nome;
+ }
+
+
+ 
